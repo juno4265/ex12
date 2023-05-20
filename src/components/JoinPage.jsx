@@ -33,9 +33,9 @@ const JoinPage = ({ history }) => {
         const uid = success.user.uid;
         await setDoc(doc(db, "user", uid), {
           email: email,
-          name: "박인협",
-          address: "경기도 안산시 원초로 61",
-          phone: "010-5191-0758",
+          name: "주노박",
+          address: "좋아",
+          phone: "010-2222-2222",
           photo: "",
         });
         setLoading(false);
